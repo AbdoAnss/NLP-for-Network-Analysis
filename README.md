@@ -16,6 +16,24 @@ The key topics for study within this project include:
 - Other organizations
 - Investors
 
+## Project Structure
+
+- **.data/**: This folder contains the raw data files in JSON format that were scraped from various sources.
+    - company1.json
+    - company2.json
+    - ...
+    - companyN.json
+- **output/**: This folder contains the cleaned and manipulated data files in JSON format.
+    - output_new.json
+- **notebooks/**: This folder contains Jupyter notebooks used for data cleaning, manipulation, and analysis.
+    - data_cleaning_and_manipulation.ipynb
+    - json_to_graph.ipnyb
+    - ...
+    - data_analysis.ipynb
+- **requirements.txt**: This file lists all the Python packages required to run the code in this project.
+- **README.md**: This file provides an overview of the project, including the project structure, project goals, and instructions for running the code.
+
+
 ## Wikipedia Scraping
 
 To gather data for analysis, the project implements a Wikipedia scraping mechanism. This involves:
